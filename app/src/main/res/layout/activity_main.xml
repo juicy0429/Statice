@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#E9E9E9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_list_black_24dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="16dp"
+            android:background="@color/colorPrimaryDarkest"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="당신의 영원한 사랑이\n 되고싶어요"
+            android:textStyle="italic|bold"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2018.01.17\n ~"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:gravity="right"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/my_pic"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="상대방이 설정한 나의 애칭"
+            android:textSize="10sp" />
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/heart_icon" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:text="내가 설정한 상대방 애칭"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/your_pic"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/logo" />
+
+    </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/statice_background"
+            android:alpha="0.8"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="Call"
+            android:textAlignment="center"
+            android:background="@drawable/edge" />
+        <TextView
+            android:id="@+id/chat"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="Talk"
+            android:textAlignment="center"
+            android:background="@drawable/edge"/>
+        <TextView
+            android:id="@+id/calendar"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="Calendar"
+            android:textAlignment="center"
+            android:background="@drawable/edge"
+            />
+    </LinearLayout>
+
+
+    </LinearLayout>
+

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E9E9E9">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp">
+        
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/diary"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:id="@+id/diary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-10dp"
+            android:ems="5"
+            android:text="다이어리"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/album"
+            android:layout_marginRight="20dp"/>
+        <TextView
+            android:id="@+id/album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사진첩"
+            android:ems="5"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/d_day"
+            android:layout_marginRight="20dp"/>
+        <TextView
+            android:id="@+id/d_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="디데이"
+            android:ems="5"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/post"
+            android:layout_marginRight="20dp"/>
+        <TextView
+            android:id="@+id/post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="우체통"
+            android:ems="5"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/event"
+            android:layout_marginRight="20dp"/>
+        <TextView
+            android:id="@+id/event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이벤트"
+            android:ems="5"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/push"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="80dp"
+
+        android:src="@drawable/push"/>
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="130dp"
+        android:src="@drawable/finder"
+        android:layout_marginTop="15dp"/>
+    <ImageView
+        android:id="@+id/settings"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="130dp"
+        android:src="@drawable/setting"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
